@@ -1,4 +1,4 @@
-# Meu portfólio
+# Portfólio - João Vitor
 
 ## 📌 Sobre o projeto
 Portfólio desenvolvido durante a disciplina de Bootcamp, com o objetivo de apresentar minhas habilidades, projetos e evolução na área de tecnologia.
