@@ -8,7 +8,7 @@ Portfólio desenvolvido durante a disciplina de Bootcamp, com o objetivo de apre
 - CSS
 
 ## 💻 Funcionalidades
-- Apresentação pessoal
+- Minha apresentação
 - Exibição de projetos
 - Layout moderno
 
