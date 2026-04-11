@@ -13,8 +13,7 @@ Portfólio desenvolvido durante a disciplina de Bootcamp, com o objetivo de apre
 - Layout moderno
 
 ## 🌐 Acesse o projeto
-https://jaovitin08.github.io/portfolioHUB/
-
+https://github.com/jaovitin08/meu-portfolio
 ## 👨‍💻 Autor
 João Vitor Fernandes Cunha  
 LinkedIn: https://www.linkedin.com/in/joão-vitor-fernandes-cunha-2abb0a265/
