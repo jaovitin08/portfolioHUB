@@ -2,22 +2,25 @@
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PortfolioHUB - João Vitor</title>
 
 <style>
 body {
     margin: 0;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #020617, #0f172a);
     color: white;
 }
 
+/* NAVBAR */
 nav {
     background: #020617;
     padding: 15px;
     text-align: center;
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 
 nav a {
@@ -25,36 +28,49 @@ nav a {
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 nav a:hover {
     color: white;
 }
 
+/* HEADER */
 header {
     text-align: center;
-    padding: 50px;
+    padding: 50px 20px;
 }
 
 header h1 {
     font-size: 36px;
+    margin-bottom: 10px;
 }
 
 header p {
     color: #38bdf8;
 }
 
+/* FOTO */
+header img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 15px;
+    border: 3px solid #38bdf8;
+}
+
+/* SEÇÕES */
 section {
     max-width: 900px;
     margin: auto;
     padding: 20px;
 }
 
+/* CARDS */
 .card {
     background: #1e293b;
     padding: 20px;
     margin: 20px 0;
-    border-radius: 10px;
+    border-radius: 12px;
     transition: 0.3s;
 }
 
@@ -62,12 +78,25 @@ section {
     transform: scale(1.03);
 }
 
+/* TÍTULOS */
 h2 {
     color: #38bdf8;
 }
 
+/* LISTAS */
 ul {
     line-height: 1.8;
+}
+
+/* LINKS */
+a {
+    color: #38bdf8;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    padding: 20px;
 }
 </style>
 
@@ -91,8 +120,7 @@ ul {
     <h1>João Vitor Fernandes Cunha</h1>
     <p>Portfólio Profissional</p>
 
-    <!-- FOTO -->
-    <img src="foto.jpg" width="150" style="border-radius:50%; margin-top:15px;">
+    <img src="foto.jpg" alt="Foto de João Vitor">
 </header>
 
 <section id="perfil" class="card">
@@ -115,15 +143,15 @@ Sou estudante apaixonado por tecnologia, com foco em programação, lógica comp
 <h2>🗂️ Projetos</h2>
 
 <p><b>🔬 Foguete Escolar</b><br>
-Na minha escola, realizei o lançamento de um foguete com reação química (vinagre + bicarbonato), focado em alcance e testes práticos. Para alcançar melhores resultados, utilizamos matemática e lógica, conceitos importantes da área de tecnologia.
+Projeto de lançamento de foguete utilizando reação química (vinagre + bicarbonato), aplicando conceitos de física e lógica para maximizar o alcance.
 </p>
 
 <p><b>💻 Lógica de Programação</b><br>
-Neste início de semestre, desenvolvi diversos exercícios no Portugol Studio, trabalhando com fluxogramas e pseudocódigos.
+Desenvolvimento de exercícios utilizando Portugol Studio, com foco em algoritmos, fluxogramas e estrutura lógica.
 </p>
 
 <p><b>🖥️ Otimização de PC</b><br>
-Adquiri experiência em hardware ao configurar a BIOS do meu computador, melhorar o desempenho em jogos (FPS) e otimizar o sistema.
+Configuração de BIOS, ajustes de desempenho e otimização para jogos, aumentando FPS e estabilidade do sistema.
 </p>
 
 </section>
@@ -152,7 +180,7 @@ Busco minha primeira oportunidade na área de tecnologia para desenvolver minhas
 <h2>📊 Apresentação</h2>
 <p>Veja minha apresentação com mais detalhes sobre meus projetos e habilidades:</p>
 
-<a href="https://drive.google.com/file/d/1N5AhAs1KFNDMaH_Sx3Rh17JGCTJpFECT/view?usp=sharing">
+<a href="https://drive.google.com/file/d/1N5AhAs1KFNDMaH_Sx3Rh17JGCTJpFECT/view?usp=sharing" target="_blank">
 👉 Acessar Slides
 </a>
 </section>
@@ -162,7 +190,7 @@ Busco minha primeira oportunidade na área de tecnologia para desenvolver minhas
 <p>
 "João Vitor demonstra grande dedicação e interesse na área de tecnologia, destacando-se pela sua capacidade de aprendizado."
 </p>
-<p><i>— Professor (Cleber, Lógica da Progamação)</i></p>
+<p><i>— Professor Cleber (Lógica de Programação)</i></p>
 </section>
 
 <section id="outros" class="card">
@@ -178,15 +206,17 @@ Busco minha primeira oportunidade na área de tecnologia para desenvolver minhas
 <h2>📞 Contato</h2>
 <p>Email: jvfc2008@gmail.com</p>
 <p>Telefone: (61) 99808-6603</p>
+
 <p>
-<a href="https://www.linkedin.com/in/joão-vitor-fernandes-cunha-2abb0a265/" target="_blank" style="color:#38bdf8;">
+<a href="https://www.linkedin.com/in/joão-vitor-fernandes-cunha-2abb0a265/" target="_blank">
 Acessar meu LinkedIn
 </a>
 </p>
+</section>
 
-<p style="text-align:center; color:gray;">
+<footer>
 Desenvolvido por João Vitor
-</p>
+</footer>
 
 </body>
 </html>
